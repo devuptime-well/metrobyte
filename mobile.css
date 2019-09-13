@@ -8,6 +8,10 @@ body {
     width: 100%;
 }
 
+.content_title {
+    font-size: 20px;
+}
+
 .diferenciais__content{
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 5px;
@@ -51,7 +55,6 @@ body {
 }
 
 .form {
-    width: 80%;
     margin-bottom: 30px;
 }
 

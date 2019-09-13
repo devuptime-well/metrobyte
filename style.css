@@ -12,10 +12,10 @@ html {
 
 body {
     display: block;
-    background: linear-gradient(#274DB5,#274DB5);
-    background-repeat: no-repeat;
+    background-image: url("img/bg-pattern-blue-sm.png");
+    background-repeat: repeat-x;
     background-position: left top;
-    background-size: 100% 800px;
+    background-size: 50% 800px;
     background-color: #f4f6f8;
     width: 100vw !important;
     overflow-x: hidden;
