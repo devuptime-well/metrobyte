@@ -207,14 +207,36 @@ body {
 }
 
 .diferenciais {
-    background-color: #274DB5;    
+    position: relative;
+    background-image: url("img/cats.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: #fff;
-    padding: 60px;
+    height: 400px;
     width: 100vw;
+}
+
+.diferenciais__background {
+    position: absolute;
+    background-color: hsl(224, 65%, 43%, .7);
+    width: 100%;
+    height: 400px;
+    z-index: 9;
 }
 
 .diferenciais h1 {
     padding: 20px;
+}
+
+.diferenciais__inner {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
 }
 
 .diferenciais__content {
@@ -301,4 +323,19 @@ body {
 
 .footer__inner a:hover {
     text-decoration: underline;
+}
+
+.redes__social a {
+    display: block;
+    margin-bottom: 10px !important;
+}
+
+.redes__social a img {
+    filter: invert(100%);
+    width: 22px;
+    margin-right: 10px;
+}
+
+.redes__social a span {
+    display: inline;
 }
