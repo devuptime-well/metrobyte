@@ -1,0 +1,49 @@
+body {
+    background-size: 100% 1100px;
+}
+
+.inicial__inner, .cards__inner, .content__inner, .card {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    width: 100%;
+}
+
+.diferenciais__content{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    width: 100%;
+    padding: 30px;
+}
+
+.diferenciais {
+    padding: 0;
+}
+
+.footer__inner {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.img_retangular {
+    width: 100%;
+}
+
+.img_quadrada {
+    width: 50%;
+}
+
+.incial__video_reprodutor {
+    height: 180px !important;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.form {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-size: 8px;
+}
