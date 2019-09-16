@@ -47,7 +47,7 @@ body {
 .form {
     background-color: #fff;
     width: 100%;
-    height: 443px;
+    height: auto;
     padding: 30px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -259,6 +259,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     max-width: 90vw;
+    font-size: 18px;
 }
 
 .diferenciais__content span {
