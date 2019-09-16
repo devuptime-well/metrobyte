@@ -73,13 +73,7 @@
                     </span>
                     <span>
                         <p>&#10004;</p>Sistema de gerenciamento de incidentes.
-                    </span>
-                    <span>
-                        <p>&#10004;</p>Atendimento em inglês, espanhol e português.
-                    </span>
-                    <span>
-                        <p>&#10004;</p>Horário comercial de atendimento.
-                    </span>
+                    </span>                    
                     <span>
                         <p>&#10004;</p>Maior economia.
                     </span>
@@ -225,10 +219,9 @@
             <div>
                 <h3>Entre em contato</h3>
                 <span>Fone: (11) 3090-3663</span>
-                <span>Av. Eng. Armando de Arruda Pereira, 2937 - Jabaquara, São Paulo - SP, 04309-011</span>
+                <span>Av. Eng. Armando de Arruda Pereira, 2937 <br>sala 408 bloco b - Jabaquara, São Paulo - SP<br> 04309-011</span>
             </div>
-            <div>
-                <h3>Portal Iniciados</h3>
+            <div>                
                 <a href="politica.html">Política de Privacidade</a>
             </div>
             <div>
