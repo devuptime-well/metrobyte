@@ -296,7 +296,7 @@ body {
 }
 
 .img_quadrada {
-    width: 10%;
+    width: 17%;
 }
 
 .footer {
@@ -330,10 +330,6 @@ body {
 .footer__inner a {
     text-decoration: none;
     color: #fff;
-}
-
-.footer__inner a:hover {
-    text-decoration: underline;
 }
 
 .redes__social a {
@@ -384,10 +380,6 @@ body {
 .link__site {
     color: #ee7527;
     text-decoration: none;
-}
-
-.link__site:hover {
-    text-decoration: underline;
 }
 
 .politica__inner__info {
