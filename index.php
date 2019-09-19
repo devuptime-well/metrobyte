@@ -60,28 +60,28 @@
                 </div>
                 <div class="card__info_content">
                     <strong>
-                        Suporte técnico dentro do horário comercial.
+                    Suporte técnico de TI para todo tipo de empresa.
                     </strong>
                     <span>
-                        <p>&#10004;</p>Prazos de atendimento (acordo de nível de serviço).
+                        <p>&#10004;</p>Nível de serviço acordado (SLA)
                     </span>
                     <span>
-                        <p>&#10004;</p>Atendimento Remoto.
+                        <p>&#10004;</p>Atendimento remoto ilimitado
                     </span>
                     <span>
-                        <p>&#10004;</p>Atendimento Presencial.
+                        <p>&#10004;</p>Atendimento presencial on-demand
                     </span>
                     <span>
-                        <p>&#10004;</p>Sistema de gerenciamento de incidentes.
+                        <p>&#10004;</p>Gerenciamento de incidentes
                     </span>                    
                     <span>
-                        <p>&#10004;</p>Maior economia.
+                        <p>&#10004;</p>Maior economia
                     </span>
                     <span>
-                        <p>&#10004;</p>segurança e praticidade.
+                        <p>&#10004;</p>Segurança e praticidade
                     </span>
                     <span>
-                        <p>&#10004;</p>Equipe técnica qualificada.
+                        <p>&#10004;</p>Equipe técnica qualificada
                     </span>
                 </div>
                 <div class="card__info_btn">
@@ -94,25 +94,37 @@
                 </div>
                 <div class="card__info_content">
                     <strong>
-                        Suporte técnico sob medida para o seu negócio.
+                    Suporte técnico de TI negócios com necessidades específicas
                     </strong>
                     <span>
-                        <p>&#10004;</p>Horários flexíveis que sua empresa necessita.
+                        <p>&#10004;</p>Nível de serviço acordado (SLA)
                     </span>
                     <span>
-                        <p>&#10004;</p>Atendimento Remoto.
+                        <p>&#10004;</p>Atendimento remoto ilimitado
                     </span>
                     <span>
-                        <p>&#10004;</p>Atendimento Presencial.
+                        <p>&#10004;</p>Atendimento presencial on-demand
                     </span>
                     <span>
-                        <p>&#10004;</p>Sistema de gerenciamento de incidentes.
+                        <p>&#10004;</p>Gerenciamento de incidentes
                     </span>
                     <span>
-                        <p>&#10004;</p>Atendimento em inglês, espanhol e português.
+                        <p>&#10004;</p>Maior economia
                     </span>
                     <span>
-                        <p>&#10004;</p>Atendimento em dias úteis ou feriados.
+                        <p>&#10004;</p>Segurança e praticidade
+                    </span>
+                    <span>
+                        <p>&#10004;</p>Equipe técnica qualificada
+                    </span>
+                    <span>
+                        <p>&#10004;</p>Horários flexíveis conforme a necessidade da sua empresa
+                    </span>
+                    <span>
+                        <p>&#10004;</p>Operação 24x7
+                    </span>
+                    <span>
+                        <p>&#10004;</p>Atendimento em outros idiomas
                     </span>
                 </div>
                 <div class="card__info_btn">
@@ -125,19 +137,18 @@
                 </div>
                 <div class="card__info_content">
                     <strong>
-                        Um técnico exclusivo dentro da sua empresa.
+                    Suporte técnico de TI para empresas que precisam de um técnico exclusivo.
                     </strong>
                     <span>
-                        <p>&#10004;</p>Serviço de outsoucing(terceirização).
+                        <p>&#10004;</p>Serviço de outsourcing
                     </span>
                     <span>
-                        <p>&#10004;</p>Profissional de suporte técnico alocado diretamente na sua
-                        empresa.
+                        <p>&#10004;</p>Tenha um técnico dentro da sua empresa
                     </span>
                     <span>
-                        <p>&#10004;</p>Não tenha dor de cabeça com treinamento de funcionário.
+                        <p>&#10004;</p>Não se preocupe mais com treinamento, férias ou documentação
                     </span><span>
-                        <p>&#10004;</p>Sem burocracias.
+                        <p>&#10004;</p>Evite burocracias
                     </span>
 
                 </div>
@@ -218,8 +229,8 @@
         <div class="footer__inner">
             <div>
                 <h3>Entre em contato</h3>
-                <span>Fone: (11) 3090-3663</span>
-                <span>Av. Eng. Armando de Arruda Pereira, 2937 <br>sala 408 bloco b - Jabaquara, São Paulo - SP<br> 04309-011</span>
+                <span>Fone: (11) 3090-3663</span>                
+                <span>Av. Eng. Armando de Arruda Pereira, 2937 <br> Bloco B Conjunto 408 Jabaquara, São Paulo - SP <br> 04309-011</span>
             </div>
             <div>                
                 <a href="politica.html">Política de Privacidade</a>
