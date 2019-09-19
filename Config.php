@@ -7,6 +7,7 @@ $telefone = $_POST['telefone'];
 $servicos = $_POST['servicos'];
 $computadores = $_POST['computadores'];
 
+
 $servicosArr = [
     "1" => "Service desk",
     "2" => "Solução em infraestrutura",
@@ -22,23 +23,27 @@ $computadoresArr = [
     "4" => "Mais de 50 computadores"
 ];
 
+
 require( __DIR__ . "/PHPMailer/src/PHPMailer.php");
 require( __DIR__ . "/PHPMailer/src/SMTP.php");
 
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 $mail->IsSMTP();
 
-$mail->Host = "mail.solucaosites.com.br";
+
+
+$mail->Host = "smtp.gmail.com";
 $mail->SMTPAuth = true;
-$mail->Username = 'contato@solucaosites.com.br';
-$mail->Password = 'Dd74d98200@';
+$mail->Username = 'metrobyte.landingpage@gmail.com';
+$mail->Password = '78nejbMZl';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
+
 
 $mail->From = $email;
 $mail->FromName = "Formulario Metrobyte";
 
-$mail->AddAddress('welq2005@gmail.com', '');
+$mail->AddAddress('metrobyte.landingpage@gmail.com', '');
 
 $mail->isHTML(true);
 
