@@ -1,12 +1,11 @@
 <?php
 
-$nome    = $_POST["nome"];
-$email   = $_POST["email"];
-$empresa = $_POST["empresa"];
-$telefone = $_POST['telefone'];
-$servicos = $_POST['servicos'];
+$nome         = $_POST["nome"];
+$email        = $_POST["email"];
+$empresa      = $_POST["empresa"];
+$telefone     = $_POST['telefone'];
+$servicos     = $_POST['servicos'];
 $computadores = $_POST['computadores'];
-
 
 $servicosArr = [
     "1" => "Service desk",
@@ -23,44 +22,42 @@ $computadoresArr = [
     "4" => "Mais de 50 computadores"
 ];
 
-
 require( __DIR__ . "/PHPMailer/src/PHPMailer.php");
 require( __DIR__ . "/PHPMailer/src/SMTP.php");
+require( __DIR__ . "/PHPMailer/src/Exception.php");
 
-$mail = new PHPMailer\PHPMailer\PHPMailer();
-$mail->IsSMTP();
+$mail      = new PHPMailer\PHPMailer\PHPMailer();
+$exception = new PHPMailer\PHPMailer\Exception();
 
+try {
+    $mail->IsSMTP();
+    $mail->Host = "smtp.gmail.com";
+    $mail->SMTPAuth = true;
+    $mail->Username = 'metrobyte.landingpage@gmail.com';
+    $mail->Password = '78nejbMZl';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
 
+    $mail->From = $email;
+    $mail->FromName = "Formulario Metrobyte";
 
-$mail->Host = "smtp.gmail.com";
-$mail->SMTPAuth = true;
-$mail->Username = 'metrobyte.landingpage@gmail.com';
-$mail->Password = '78nejbMZl';
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587;
+    $mail->AddAddress('metrobyte.landingpage@gmail.com', '');
 
+    $mail->isHTML(true);
 
-$mail->From = $email;
-$mail->FromName = "Formulario Metrobyte";
+    $mail->Subject = "Formulario Site";
+    $mail->Body = "
+        Nome:     {$nome} <br>
+        E-mail:   {$email} <br>
+        Empresa:  {$empresa} <br>
+        Telefone: {$telefone} <br>
+        Servicos: {$servicosArr[$servicos]} <br>
+        Computadores na empresa: {$computadoresArr[$computadores]}
+    ";
 
-$mail->AddAddress('metrobyte.landingpage@gmail.com', '');
+    $enviado = $mail->Send();
+    echo '{"Error": 0}';
 
-$mail->isHTML(true);
-
-$mail->Subject = "Formulario Site";
-$mail->Body = "
-    Nome: {$nome} <br>
-    E-mail: {$email} <br>
-    Empresa: {$empresa} <br>
-    Telefone: {$telefone} <br>
-    Servicos: {$servicosArr[$servicos]} <br>
-    Computadores na empresa: {$computadoresArr[$computadores]}
-";
-
-$enviado = $mail->Send();
-
-if($enviado) {
-    echo "Sucesso";
-}else{
-    echo "Negado";
+} catch (Exception $e) {
+    echo '{"Error": 500}';
 }

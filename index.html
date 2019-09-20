@@ -25,11 +25,11 @@
             </div>
             <div class="form">
                 <h2 class="form__title">Preencha o formulário que entraremos em contato em breve.</h2>
-                <form action="Config.php" method="POST" name="form_contato" id="form_contato">
-                    <input type="text" name="nome" placeholder="Nome Completo">
-                    <input type="email" name="email" placeholder="E-mail">
-                    <input type="text" name="empresa" placeholder="Nome da sua empresa">
-                    <input type="tel" name="telefone" placeholder="(00) 9999-9999">
+                <form action="javascript:void(0)" onsubmit="sendEmail('#form_contato')" method="POST" name="form_contato" id="form_contato">
+                    <input type="text" name="nome" placeholder="Nome Completo" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="empresa" placeholder="Nome da sua empresa" required>
+                    <input type="tel" name="telefone" placeholder="(00) 9999-9999" required>
                     <label class="label__form" for="servicos">Qual serviço? / produto de interesse?</label>
                     <select name="servicos" id="">
                         <option value="1">Service desk</option>
@@ -46,7 +46,8 @@
                         <option value="3">De 21 a 50 computadores</option>
                         <option value="4">Mais de 50 computadores</option>
                     </select>
-                    <input type="submit" class="btn" value="Clique aqui para fazer um orçamento">
+                    <div class="alerta__erros"></div>
+                    <input type="submit" class="btn" id="btn__form" value="Clique aqui para fazer um orçamento">
                 </form>
             </div>
         </div>
@@ -247,6 +248,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/Api.js"></script>
+    <script src="js/View.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
