@@ -12,7 +12,7 @@ function alertaErros(mensagem) {
 function sendEmail(id) {
     let form = View(id).form();
     View('#btn__form').val('Enviando...');
-    let api = Api('/Config.php', 'http://localhost/metrobyte').post(form, x => {
+    let api = Api('/Config.php').post(form, x => {
         alertaErros('E-mail enviado com sucesso!');
         View('#btn__form').val('Fazer outro orçamento');
     });
